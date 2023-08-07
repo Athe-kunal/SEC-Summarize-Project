@@ -1,0 +1,7 @@
+{
+  tickers: ['TSLA','AAPL','NVDA','MSFT','AMZN','GOOGL'],
+  amount: 5,
+  filing_type: "10-Q",
+  num_workers: 12,
+  include_amends: False
+}
