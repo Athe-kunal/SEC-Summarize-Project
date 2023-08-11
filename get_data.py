@@ -2,22 +2,25 @@ import json
 import re
 import os
 from typing import List
+from main_data import get_data
 
 
-def get_input_files(ticker_name:str,year:str,document_type:List[str]):
+def get_input_files(ticker_name: str, year: str, document_type: List[str]):
     file_names_list = []
     for files in os.listdir(f"data/{ticker_name}/{year}"):
         if files.startswith(document_type):
             file_names_list.append(f"data/{ticker_name}/{year}/{files}")
     return file_names_list
 
+
 def find_files(filing_type):
-        file_list = []
-        for root, _, filenames in os.walk("data"):
-                for file in filenames:
-                        if file.startswith(filing_type):
-                                file_list.append(os.path.join(root,file))
-        return file_list
+    file_list = []
+    for root, _, filenames in os.walk("data"):
+        for file in filenames:
+            if file.startswith(filing_type):
+                file_list.append(os.path.join(root, file))
+    return file_list
+
 
 def post_process(text):
     text = re.sub(r"\\.", "", text)
@@ -27,18 +30,25 @@ def post_process(text):
     return sentence_with_delimiter
 
 
-def load_documents(ticker_name:str,year:str,doc_name: str):
-    files = get_input_files(ticker_name=ticker_name,year=year,document_type=doc_name)
-    full_data = []
-    for file in files:
-        with open(file) as f:
-            data = json.load(f)
-        full_data.append(data)
+def load_documents(
+    ticker_name: str,
+    year: str,
+    filing_type: str,
+    include_amends: bool,
+    num_workers: int,
+):
+    full_data = get_data(
+        ticker=ticker_name,
+        year=year,
+        filing_type=filing_type,
+        include_amends=include_amends,
+        num_workers=num_workers,
+    )
 
     documents = []
     metadata = []
 
-    for tic_data in full_data:
+    for tic_data in full_data[ticker_name]:
         curr_year = tic_data["year"]
         ticker = tic_data["ticker"]
         filing_type = tic_data["filing_type"]
@@ -55,7 +65,7 @@ def load_documents(ticker_name:str,year:str,doc_name: str):
             )
     post_process_docs = [post_process(doc) for doc in documents]
     post_process_metadata = []
-    for  sm in metadata:
+    for sm in metadata:
         metadata_dict = {}
         metadata_dict.update(
             {
@@ -70,11 +80,12 @@ def load_documents(ticker_name:str,year:str,doc_name: str):
         )
 
         post_process_metadata.append(metadata_dict)
-    
+
     assert len(post_process_docs) == len(
         post_process_metadata
     ), f"Length of splitted docs and metadata should be the same, but got {len(post_process_docs)} and {len(post_process_metadata)} respectively"
-    
+
     return post_process_docs, post_process_metadata
+
 
 # docs,metadata = load_documents("TSLA","2021","10-K")
