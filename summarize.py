@@ -29,7 +29,7 @@ openai.api_key = os.environ["OPENAI_API_KEY"]
 os.environ["NUMEXPR_MAX_THREADS"] = "16"
 
 query_str = """
-    Can you provide a comprehensive summary of the given text? The summary should cover all the key points and numerical figures presented in the original text, while also condensing the information.
+    Can you provide a comprehensive summary of the given text? The summary should cover all the key points and numerical figures presented in the original text, while also condensing the information. 
 """
 
 
