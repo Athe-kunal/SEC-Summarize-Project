@@ -2,7 +2,7 @@ import json
 import re
 import os
 from typing import List
-from main_data import get_data
+from data_extraction import get_data
 
 
 def get_input_files(ticker_name: str, year: str, document_type: List[str]):
@@ -36,6 +36,7 @@ def load_documents(
     filing_type: str,
     include_amends: bool,
     num_workers: int,
+    quarters:str
 ):
     full_data = get_data(
         ticker=ticker_name,
@@ -43,6 +44,7 @@ def load_documents(
         filing_type=filing_type,
         include_amends=include_amends,
         num_workers=num_workers,
+        quarters=quarters
     )
 
     documents = []

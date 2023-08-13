@@ -40,6 +40,7 @@ def get_data(
     ticker: str,
     year: str,
     filing_type: str,
+    quarters:str="",
     include_amends: bool = True,
     num_workers: int = 8,
 ):
@@ -54,9 +55,22 @@ def get_data(
         end = year + "-12-31"
         amount = 1
     elif filing_type == "10-Q":
-        start = year + "-01-01"
-        end = year + "-12-31"
-        amount = 3
+        # if quarters == "ALL":
+        #     start = year + "-01-01"
+        #     end = str(int(year)+1) + "-02-20"
+        #     amount = 3
+        if quarters == "Q3":
+            start = year + "-07-01"
+            end = str(int(year)+1) + "-02-20"
+            amount = 1
+        elif quarters == "Q2":
+            start = year+"-04-01"
+            end = year + "-12-31"
+            amount = 1
+        elif quarters == "Q1":
+            start = year+"-01-01"
+            end = year+"-05-01"
+            amount = 1
     se = SECExtractor(
         [ticker],
         amount=amount,

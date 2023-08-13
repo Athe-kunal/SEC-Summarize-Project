@@ -21,7 +21,7 @@ from llama_index import (
 from llama_index.response_synthesizers import TreeSummarize
 
 nest_asyncio.apply()
-from get_data import *
+from data_loader import *
 
 os.environ["OPENAI_API_KEY"] = ""
 
@@ -53,8 +53,9 @@ def get_response(
 
 
 def get_summary(
-    docs: List[str], metadata: List[dict], ticker, year, filing_type: str = "10-K"
+    docs: List[str], metadata: List[dict], ticker, year, filing_type: str = "10-K",quarters:str=""
 ):
+    os.makedirs("summaries",exist_ok=True)
     if filing_type == "10-K":
         ALL_SECTIONS = SECTIONS_10K
     elif filing_type == "10-Q":
@@ -74,13 +75,17 @@ def get_summary(
                 elif sm.endswith(f"{filing_type}/A"):
                     # elif sm.endswith("10-K/A"):
                     section_amended_docs = docs[idx]
+        if filing_type=="10-Q":
+            file_name = f"{ticker}_{year}_{filing_type}_{quarters}.txt"
+        elif filing_type == "10-K":
+            file_name = f"{ticker}_{year}_{filing_type}.txt"
 
         if sections_docs == "":
             summary += " ".join(section.split("_")) + "\n"
             summary += ""
             summary += "\n\n"
             full_summary += summary
-            with open(f"{ticker}_{year}_{filing_type}.txt", "a") as f:
+            with open(file_name, "a") as f:
                 f.write(summary)
         elif section_amended_docs == "" and sections_docs != "":
             response = get_response(sections_docs, query_str)
@@ -88,7 +93,7 @@ def get_summary(
             summary += response
             summary += "\n\n"
             full_summary += summary
-            with open(f"{ticker}_{year}_{filing_type}.txt", "a") as f:
+            with open(file_name, "a") as f:
                 f.write(summary)
         elif section_amended_docs != "" and sections_docs != "":
             section_response = get_response(sections_docs, query_str)
@@ -98,7 +103,7 @@ def get_summary(
             summary += "Amended Section: \n" + section_amended_response
             summary += "\n\n"
             full_summary += summary
-            with open(f"{ticker}_{year}_{filing_type}.txt", "a") as f:
+            with open(file_name, "a") as f:
                 f.write(summary)
     return full_summary
 
@@ -109,16 +114,16 @@ def generate_summary(
     filing_type: str = "10-K",
     include_amends: bool = True,
     num_workers: int = 8,
+    quarters:bool="ALL"
 ):
-    docs, metadata = load_documents(ticker, year, filing_type)
+    docs, metadata = load_documents(ticker, year, filing_type,include_amends,num_workers,quarters)
     final_summary = get_summary(
         docs,
         metadata,
         ticker,
         year,
         filing_type,
-        include_amends=include_amends,
-        num_workers=num_workers,
+        quarters=quarters
     )
 
     return final_summary
