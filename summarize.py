@@ -1,4 +1,3 @@
-import nest_asyncio
 import json
 import re
 import os
@@ -19,13 +18,17 @@ from llama_index import (
     StorageContext,
 )
 from llama_index.response_synthesizers import TreeSummarize
+from dotenv import load_dotenv
 
-nest_asyncio.apply()
+# import nest_asyncio
+# nest_asyncio.apply()
 from data_loader import *
 
-os.environ["OPENAI_API_KEY"] = ""
+# Load variables from .env file
+load_dotenv()
 
-openai.api_key = os.environ["OPENAI_API_KEY"]
+openai_api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = openai_api_key
 os.environ["NUMEXPR_MAX_THREADS"] = "16"
 
 query_str = """
@@ -76,9 +79,9 @@ def get_summary(
                     # elif sm.endswith("10-K/A"):
                     section_amended_docs = docs[idx]
         if filing_type=="10-Q":
-            file_name = f"{ticker}_{year}_{filing_type}_{quarters}.txt"
+            file_name = f"summaries/{ticker}_{year}_{filing_type}_{quarters}.txt"
         elif filing_type == "10-K":
-            file_name = f"{ticker}_{year}_{filing_type}.txt"
+            file_name = f"summaries/{ticker}_{year}_{filing_type}.txt"
 
         if sections_docs == "":
             summary += " ".join(section.split("_")) + "\n"
@@ -114,7 +117,7 @@ def generate_summary(
     filing_type: str = "10-K",
     include_amends: bool = True,
     num_workers: int = 8,
-    quarters:bool="ALL"
+    quarters:bool=""
 ):
     docs, metadata = load_documents(ticker, year, filing_type,include_amends,num_workers,quarters)
     final_summary = get_summary(
