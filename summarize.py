@@ -44,8 +44,13 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 # openai.api_base = openai_api_base
 os.environ["NUMEXPR_MAX_THREADS"] = "16"
 
+# query_str = """
+#     Can you provide a comprehensive summary of the given text? The summary should cover all the key points and numerical figures presented in the original text, while also condensing the information. 
+# """
+
 query_str = """
-    Can you provide a comprehensive summary of the given text? The summary should cover all the key points and numerical figures presented in the original text, while also condensing the information. 
+ You are financial statement analyst, provide a comprehensive summary of the given text which covers the key points and ALL the numerical figures presented in the original text, while also condensing the information. DON'T MISS OUT ON ANY NUMERICAL FIGURES.
+
 """
 context_window = 1024
 num_output = 512
