@@ -1,0 +1,30 @@
+FINANCIAL STATEMENTS
+The given text provides financial information about Apple Inc. and its subsidiaries. It includes details about the company's selling, general, and administrative expenses, operating income, shareholders' equity, liabilities, and cash balances. The text also mentions the computation of earnings per share, net sales by product category, and the fair value of the company's marketable securities. It further discusses the use of derivative instruments to manage foreign exchange and interest rate risks. The text includes information about the company's trade receivables, other income and expenses, commercial paper program, fixed-rate notes, share repurchase program, and share-based compensation. It also mentions the company's off-balance sheet commitments and legal proceedings. The text provides a breakdown of operating income by segment and reconciles segment operating income to total operating income.
+
+MANAGEMENT DISCUSSION
+The given text is a quarterly report on Form 10-Q from Apple Inc. It contains forward-looking statements and discusses the potential impact of the COVID-19 pandemic on the company's business. The report provides information on the company's fiscal calendar, reportable segments, net sales by geographic region and product category, gross margin, operating expenses, provision for income taxes, and cash requirements. It also mentions the company's manufacturing purchase obligations and capital return program. The report highlights the decrease in net sales during the first quarter of 2023 compared to the same quarter in 2022, primarily due to the weakness in foreign currencies relative to the U.S. dollar. It also mentions the impact of the COVID-19 pandemic on the company's operations and financial condition. The report concludes with a discussion on the company's accounting policies and critical accounting estimates.
+
+MARKET RISK DISCLOSURES
+The text states that there have been no significant changes to the Company's market risk in the first three months of 2023. For a detailed discussion of the Company's exposure to market risk, please refer to the market risk disclosures provided in Part II, Item 7A of the 2022 Form 10-K.
+
+CONTROLS AND PROCEDURES
+The Company's management has evaluated and concluded that the Company's disclosure controls and procedures were effective as of December 31, 2022. These controls and procedures ensure that information required to be disclosed by the Company in reports filed under the Securities Exchange Act is recorded, processed, summarized, and reported within the specified time periods. The evaluation also found no changes in the Company's internal control over financial reporting during the first quarter of 2023 that have materially affected or are reasonably likely to materially affect the Company's internal control over financial reporting.
+
+LEGAL PROCEEDINGS
+Epic Games filed a lawsuit against the Company, alleging antitrust violations and unfair competition related to the operation of the Company's App Store. The Company counterclaimed for breach of contract. The Northern California District Court ruled in favor of the Company on nine out of ten counts and also found that certain provisions of the App Store Review Guidelines violated California's unfair competition law. An injunction was issued. Epic appealed the decision, and the Company filed a cross-appeal and obtained a stay pending the appeal. The Company has other unresolved legal proceedings and claims. Certain matters were settled in the first quarter of 2023, but they did not have a material impact on the Company's financial condition or operating results. The outcome of litigation is uncertain, and if legal matters are resolved against the Company for amounts exceeding management's expectations, it could have a materially adverse effect on the Company's financial condition and operating results.
+
+RISK FACTORS
+The Company's business, reputation, results of operations, financial condition, and stock price are subject to various known and unknown factors, as outlined in the 2022 Form 10-K under "Risk Factors." These risks, when realized, can have a significant negative impact on the Company. There have been no significant changes to the risk factors since the 2022 Form 10-K.
+
+USE OF PROCEEDS
+During the three months ended December 31, 2022, the company engaged in share repurchase activity. The Board of Directors authorized the purchase of an additional $90 billion of the company's common stock under a program. As of December 31, 2022, $48.3 billion had been utilized under the April 2022 authorization. The program does not require the company to acquire a specific number of shares and allows for repurchases through privately negotiated and/or open market transactions.
+
+DEFAULTS
+
+
+MINE SAFETY
+
+
+OTHER INFORMATION
+Several officers of the company had equity trading plans in place during the three months ended December 31, 2022. An equity trading plan is a written document that outlines future purchases or sales of the company's stock, including shares acquired through employee and director equity plans.
+

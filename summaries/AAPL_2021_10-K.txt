@@ -71,3 +71,86 @@ EXHIBITS
 FORM SUMMARY
 
 
+BUSINESS
+The Company operates in highly volatile and competitive markets and must continually introduce new products and services to remain competitive. The success of these introductions depends on factors such as timely development, market acceptance, and effective management of production and inventory. The Company relies on outsourcing partners, primarily located in Asia, for manufacturing and logistical services, which reduces direct control over production and distribution. Violations of the supplier code of conduct can adversely affect the Company's business and reputation. The Company depends on single-source outsourcing partners for components and final assembly, and disruptions in manufacturing or logistics can impact the supply of components or finished goods. The Company also faces supply and pricing risks due to industry-wide shortages and commodity pricing fluctuations. The global semiconductor industry's high demand and supply shortages have affected the Company's ability to obtain components. The Company remains subject to significant risks of supply shortages and price increases that can adversely affect its business.
+
+RISK FACTORS
+The company faces various risks and challenges that can impact its business, reputation, financial condition, and stock price. These include global economic conditions, political events, trade disputes, natural disasters, and competition. The COVID-19 pandemic has significantly affected the company's operations and financial performance. Continuous innovation and successful product introductions are crucial for effective competition. The company relies on outsourcing partners for component manufacturing and logistical services, which pose risks. Supply and pricing risks arise from industry-wide shortages and commodity price fluctuations. Manufacturing and logistics can be disrupted by natural disasters and economic issues. Violations of the supplier code of conduct can harm the company's business and reputation. Design and manufacturing defects can result in product liability claims. The company is exposed to the risk of write-downs on inventory and other assets. The availability and development of third-party software applications impact customer purchasing decisions. Changes to the App Store and related litigation can affect the company's business practices and revenue. The company's success depends on key personnel and its distinctive culture. Distribution channels and information technology system failures can disrupt business operations. Losses or unauthorized access to confidential information can have significant consequences. The company faces risks from information technology system failures, cyber attacks, and data breaches. Malicious attacks can impair the company's ability to attract and retain customers. New business strategies and acquisitions can disrupt ongoing operations. Retail stores face risks such as declining sales and closure. Legal proceedings, patent claims, and complex regulations pose risks to the company's business. Environmental, social, and governance considerations expose the company to potential liabilities and reputational harm. The technology industry is subject to intense scrutiny and regulatory changes. Compliance with data protection laws is a significant obligation. Fluctuations in net sales, profit margins, and foreign currency exchange rates impact financial performance. Credit risk exists in trade receivables and vendor non-trade receivables. Changes in tax rates and legislation can affect tax liabilities. The stock price is subject to volatility unrelated to operating performance. Overall, the company faces a range of risks that could adversely affect its business, financial condition, and reputation.
+
+UNRESOLVED STAFF COMMENTS
+
+
+PROPERTIES
+The Company is headquartered in Cupertino, California and has facilities and land for various purposes in the US and other locations. The existing facilities and equipment are in good operating condition and suitable for the Company's business.
+
+LEGAL PROCEEDINGS
+Epic Games filed a lawsuit against the Company, alleging violations of antitrust laws and unfair competition based on the operation of its App Store. The Company filed a counterclaim for breach of contract. The Northern California District Court ruled in favor of the Company on nine out of ten counts and on the breach of contract claim. The court found that certain provisions of the Company's App Store Review Guidelines violate California's unfair competition law and issued an injunction. Epic appealed the decision, and the Company filed a cross-appeal and obtained a stay pending the appeal. The Company is involved in other unresolved legal proceedings and claims. Certain matters were settled in the fourth quarter of 2022, but they did not have a material impact on the Company's financial condition or operating results. The outcome of litigation is uncertain, and if legal matters are resolved against the Company for amounts exceeding management's expectations, it could have a materially adverse effect on the Company's financial condition and operating results.
+
+MINE SAFETY
+
+
+MARKET FOR REGISTRANT COMMON EQUITY
+
+
+MANAGEMENT DISCUSSION
+The given text provides information from multiple sources, including discussions of financial statements, product announcements, sales performance, impact of the COVID-19 pandemic, geographic segments, gross margins, operating expenses, income taxes, cash requirements, and legal proceedings. Key points include:
+
+- Total net sales increased by $28.5 billion in 2022 compared to 2021, driven by higher sales of iPhone, Services, and Mac.
+- The COVID-19 pandemic has had a significant impact on the company's business and financial condition.
+- The company announced several new products and services in 2022, including updated MacBook Pro, iPhone SE, Mac Studio, and iPad Air.
+- The company repurchased $90.2 billion of its common stock and paid dividends of $14.8 billion in 2022.
+- Net sales increased in the Americas, Europe, and Greater China segments, but decreased in the Japan segment.
+- Products gross margin increased in 2022 compared to 2021, primarily due to a different product mix and higher volume.
+- Services gross margin increased in 2022 compared to 2021, primarily due to higher sales.
+- The company's effective tax rate was lower than the statutory rate in 2022 and 2021, primarily due to lower tax rates on foreign earnings and tax benefits from share-based compensation.
+- The company believes its cash balances, ongoing operations, and access to debt markets will be sufficient to meet its cash requirements.
+- The company has contractual obligations for fixed-rate notes, commercial paper, lease payments, and manufacturing purchase obligations.
+- The company is subject to various legal proceedings and claims.
+
+Overall, the text provides a comprehensive overview of the company's financial performance, product announcements, geographic segments, gross margins, operating expenses, income taxes, cash requirements, and legal matters.
+
+MARKET RISK DISCLOSURES
+The company regularly reviews its foreign exchange forward and option positions, as well as interest rate swaps, to manage its foreign currency and interest rate exposures. However, there is no guarantee that these positions will fully offset the financial impact of movements in foreign exchange or interest rates. The recognition of gains and losses related to these instruments may not align with the timing of gains and losses related to the underlying economic exposures, which could negatively affect the company's financial condition and operating results. The company's exposure to interest rate changes primarily relates to its investment portfolio and outstanding debt, with a focus on preserving capital and supporting liquidity requirements. The company typically invests in highly rated securities to minimize the risk of principal loss and limits credit exposure to any one issuer. A sensitivity analysis shows that a 100 basis point increase in interest rates would result in a decline in the fair market value of the investment portfolio. The company uses interest rate swaps to manage interest rate risk on its outstanding term debt. Changes in exchange rates, particularly a strengthening of the US dollar, can negatively impact the company's net sales and gross margins. The company may enter into foreign currency contracts to protect against foreign exchange risks associated with assets, liabilities, transactions, and net investments in foreign subsidiaries. A sensitivity analysis using a value-at-risk model estimates the potential impact of fluctuations in exchange rates on the company's foreign currency derivative positions. The company estimates a maximum one-day loss in fair value based on this model. However, actual future gains and losses may differ from the sensitivity analyses due to the inherent limitations of predicting changes in interest rates, foreign currency exchange rates, and the company's actual exposures and positions.
+
+FINANCIAL STATEMENTS
+The given text provides consolidated financial statements for Apple Inc. for the years ended September 24, 2022, September 25, 2021, and September 26, 2020. It includes information on net sales, operating income, shareholders' equity, cash flow, and other financial data. The company recognizes revenue based on the transfer of control of products or services to customers and allocates revenue to different performance obligations. Apple manages its business geographically and evaluates performance based on net sales and operating income. The text also discusses the company's accounting policies, including the treatment of derivative instruments and marketable securities. It provides details on segment information and disaggregated net sales by product and service category. Additionally, it mentions the company's cash, cash equivalents, and marketable securities.
+
+The text also covers various financial aspects of the company, including its use of derivative instruments to manage foreign exchange and interest rate risk, trade receivables, credit risk management practices, deferred tax assets and liabilities, unrecognized tax benefits, ongoing tax examinations, lease arrangements, term debt, and share repurchase program. It mentions the company's employee stock plans and purchase plan.
+
+Furthermore, the text discusses the termination of the authority to grant new awards under the 2014 Plan and mentions the Apple Inc. Non-Employee Director Stock Plan, Employee Stock Purchase Plan, and 401(k) Plan.
+
+The availability of components used by the company is highlighted, with potential industry-wide shortage and pricing fluctuations. The company uses custom components not commonly used by competitors, and their availability may be affected by supplier decisions.
+
+The text also provides information about the company's financial statements, including net sales and long-lived assets. It mentions the total unrecognized compensation cost related to outstanding RSUs and stock options, as well as the total amount of gross unrecognized tax benefits. The text also mentions the company's internal control over financial reporting and its assessment of uncertain tax positions.
+
+Overall, the text covers various aspects of Apple Inc.'s plans, programs, financial statements, and potential risks related to component availability and legal proceedings.
+
+ACCOUNTING DISAGREEMENTS
+
+
+CONTROLS AND PROCEDURES
+The Company's management has evaluated and concluded that the Company's disclosure controls and procedures were effective as of September 24, 2022, providing reasonable assurance that required information is accurately recorded and reported within specified time periods. The internal control over financial reporting is designed to ensure reliable financial reporting and adherence to GAAP. The control system has inherent limitations and cannot detect all errors or fraud. Management is responsible for establishing and maintaining adequate internal control. An assessment based on the 2013 framework concluded that internal control over financial reporting was effective. The independent registered public accounting firm, Ernst & Young LLP, issued an audit report on the Company's internal control. No changes in internal control were identified during the fourth quarter of 2022 that materially affected or are reasonably likely to affect the Company's internal control.
+
+FOREIGN JURISDICTIONS
+
+
+MANAGEMENT
+The given text provides information from multiple sources, including discussions of financial statements, product announcements, sales performance, impact of the COVID-19 pandemic, geographic segments, gross margins, operating expenses, income taxes, cash requirements, and legal proceedings. Key points include:
+
+- Total net sales increased by $28.5 billion in 2022 compared to 2021, driven by higher sales of iPhone, Services, and Mac.
+- The COVID-19 pandemic has had a significant impact on the company's business, operations, and financial condition.
+- The company made significant product announcements in 2022, including updated MacBook Pro, AirPods, iPhone, Mac Studio, Studio Display, iPad Air, and Apple Watch.
+- The company increased its Program authorization to $405 billion and raised its quarterly dividend.
+- The company repurchased $90.2 billion of its common stock and paid dividends of $14.8 billion in 2022.
+- Net sales by category and reportable segment are provided for 2022, 2021, and 2020.
+- Products gross margin and percentage increased in 2022 compared to 2021, while Services gross margin and percentage also increased.
+- Operating expenses, including R&D and selling, general, and administrative expenses, increased in 2022.
+- Other income/(expense), net decreased in 2022 compared to 2021.
+- The company's effective tax rate varied in 2022 compared to 2021 due to factors such as foreign earnings and regulatory guidance.
+- The company's cash, cash equivalents, and marketable securities, along with ongoing operations and access to debt markets, are expected to meet its cash requirements.
+- The company has contractual obligations for fixed-rate notes, commercial paper, lease payments, manufacturing purchase obligations, and other purchase obligations.
+- The company has a capital return program and intends to increase its dividend on an annual basis.
+- The preparation of financial statements involves judgments, assumptions, and estimates, and the company is subject to income taxes and legal proceedings.
+
+Overall, the text provides a comprehensive overview of the company's financial performance, product announcements, impact of the COVID-19 pandemic, geographic segments, gross margins, operating expenses, income taxes, cash requirements, and legal proceedings.
+

@@ -11,8 +11,9 @@ ticker = st.text_input(label="Ticker Symbol")
 
 year = st.text_input(label="Year (2000-Present)")
 
-final_summary = generate_summary(ticker, year, filing_type)
-# with open('summaries/AAPL_2021_10-K.txt', 'r') as f:
-#     final_summary = f.read()
+if ticker!="" and year!="":
+    final_summary = generate_summary(ticker, year, filing_type)
+    # with open('summaries/AAPL_2021_10-K.txt', 'r') as f:
+    #     final_summary = f.read()
 
-st.text_area(label="Summary",value=final_summary,height=500)
+    st.text_area(label="Summary",value=final_summary,height=500)
