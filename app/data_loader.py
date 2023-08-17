@@ -2,7 +2,7 @@ import json
 import re
 import os
 from typing import List
-from data_extraction import get_data
+from app.data_extraction import get_data
 
 
 def get_input_files(ticker_name: str, year: str, document_type: List[str]):

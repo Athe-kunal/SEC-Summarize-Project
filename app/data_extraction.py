@@ -1,4 +1,4 @@
-from sec_filings import SECExtractor
+from app.sec_filings import SECExtractor
 import time
 import json
 import concurrent.futures

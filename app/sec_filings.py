@@ -2,19 +2,19 @@ from typing import List
 import asyncio
 import aiohttp
 from collections import defaultdict
-from utils import get_filing_urls_to_download
-from prepline_sec_filings.sections import (
+from app.utils import get_filing_urls_to_download
+from app.prepline_sec_filings.sections import (
     section_string_to_enum,
     validate_section_names,
     SECSection,
 )
-from prepline_sec_filings.sec_document import (
+from app.prepline_sec_filings.sec_document import (
     SECDocument,
     REPORT_TYPES,
     VALID_FILING_TYPES,
 )
 
-from prepline_sec_filings.fetch import (
+from app.prepline_sec_filings.fetch import (
     get_form_by_ticker,
     open_form_by_ticker,
     get_filing,
@@ -30,7 +30,7 @@ from typing import Union, Optional
 from ratelimit import limits, sleep_and_retry
 import os
 from unstructured.staging.base import convert_to_isd
-from prepline_sec_filings.sections import (
+from app.prepline_sec_filings.sections import (
     ALL_SECTIONS,
     SECTIONS_10K,
     SECTIONS_10Q,

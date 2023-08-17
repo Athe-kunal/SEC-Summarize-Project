@@ -5,7 +5,7 @@ import openai
 import logging
 import sys
 from typing import List
-from section_names import SECTIONS_10K, SECTIONS_10Q
+from app.section_names import SECTIONS_10K, SECTIONS_10Q
 from llama_index.llms import OpenAI
 from llama_index.callbacks import CallbackManager
 from llama_index.llms import (
@@ -32,7 +32,7 @@ from dotenv import load_dotenv
 
 # import nest_asyncio
 # nest_asyncio.apply()
-from data_loader import *
+from app.data_loader import *
 
 # Load variables from .env file
 load_dotenv()

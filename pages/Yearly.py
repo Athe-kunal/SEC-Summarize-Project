@@ -1,5 +1,5 @@
 import streamlit as st
-from summarize import generate_summary
+from app.summarize import generate_summary
 
 filing_type = st.selectbox(
     "Filing type 10-K or 10-Q",

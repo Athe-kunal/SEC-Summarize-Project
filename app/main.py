@@ -1,4 +1,4 @@
-from summarize import generate_summary
+from app.summarize import generate_summary
 
 ticker = "TSLA"
 year = "2021"

@@ -23,7 +23,7 @@ from unstructured.documents.elements import (
 )
 from unstructured.documents.html import HTMLDocument
 from unstructured.nlp.partition import is_possible_title
-from prepline_sec_filings.sections import SECSection
+from app.prepline_sec_filings.sections import SECSection
 
 
 VALID_FILING_TYPES: Final[List[str]] = [

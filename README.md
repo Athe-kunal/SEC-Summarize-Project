@@ -3,6 +3,7 @@
 * In this repo, we are summarizing the SEC filings. You can launch the app after installing all the dependencies
 
 ```python
+cd app
 pip install -r requirements.txt
 ```
 
