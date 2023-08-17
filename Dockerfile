@@ -1,7 +1,5 @@
 FROM python:3.10-slim
 
-RUN apt-get update && apt-get install python3 curl python3-pip -y
-
 COPY ./requirements.txt .
 
 RUN apt-get update && apt-get install -y \

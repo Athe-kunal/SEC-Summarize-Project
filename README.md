@@ -15,6 +15,16 @@ Launch the app by
 streamlit run Home.py
 ```
 
+Also, you can run the Dockerfile (image name is sec-summarize) by
+
+```
+docker build -t sec-summarize .
+```
+Run the docker container by
+
+```
+docker run -p 8501:8501 sec-summarize
+```
 Here is an example of summary for Tesla Q3 2022
 
 ```

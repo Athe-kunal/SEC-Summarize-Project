@@ -10,7 +10,7 @@ filing_type = st.selectbox(
 ticker = st.text_input(label="Ticker Symbol")
 
 year = st.text_input(label="Year (2000-Present)")
-quarters = ["Q3","Q2","Q1"]
+quarters = ["","Q3","Q2","Q1"]
 quarter = st.selectbox("Quarters",quarters)
 
 if ticker!="" and year!="" and quarter!="":
